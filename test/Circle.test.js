@@ -8,6 +8,6 @@ test("If shows as Circle", () => {
 
     expect(myCircle.render()).toBe(`<svg height="500" width="500">
     <circle cx="250" cy="250" r="250" fill=${this.color} />
-    <text fill="white" font-size="75" x="172" y="250">${this.text}</text>
+    <text fill=${this.textColor} font-size="75" x="172" y="250">${this.text}</text>
    </svg>`)
 })

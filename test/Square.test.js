@@ -8,6 +8,6 @@ test("If shows as Square", () => {
 
     expect(mySquare.render()).toBe(`<svg height="500" width="500">
     <rect width="500" height="500" fill=${this.color} />
-    <text fill="white" font-size="75" x="172" y="250">${this.text}</text>
+    <text fill=${this.textColor} font-size="75" x="172" y="250">${this.text}</text>
    </svg>`)
 })
