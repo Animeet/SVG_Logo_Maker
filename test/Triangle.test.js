@@ -3,13 +3,12 @@ const Triangle = require("../lib/Triangle.js");
 
 test("if shows as triangle", () => {
     const testColor = "red";
-    const testText = "XYZ"
-    const myTriangle = new Triangle(testColor, testText);
+    const testText = "XYZ";
+    const testTextColor = "white";
+    const myTriangle = new Triangle(testColor, testText, testTextColor);
 
-    expect(myTriangle.render()).toBe(`<svg height="500" width="500">
+    expect(myTriangle.render()).toBe(`<svg height="500" width="500" xmlns="http://www.w3.org/2000/svg">
         <polygon points="250,0 0,500 500,500" fill="${testColor}" />
-        <text fill=${this.textColor} font-size="75" x="172" y="250">${testText}</text>
+        <text fill="${testTextColor}" font-size="75" x="172" y="250">${testText}</text>
      </svg>`)
-})
-
-// test
+});
