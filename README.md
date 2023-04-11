@@ -5,7 +5,7 @@
 
   - This application taught me much more about inquirers, and how we can use constructors on a more broadened spectrum.
 
-  - [![Youtube Video Link](https://www.youtube.com/watch?v=zh9CsKqEhOM)]
+  - [![Youtube Video Link](https://www.youtube.com/watch?v=_A2R0qXT-eE)]
 
   ## Table of Contents
   - [Installation](#installation)
